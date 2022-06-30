@@ -16,7 +16,7 @@ body
     left: 0;
     right: 0;
     background-color: rgba(155, 153, 151);
-    z-index: 999999999;
+    z-index: 99999999999999999999999;
 }
 #loading i
 {
@@ -25,7 +25,7 @@ body
 /*  */
 .navbar-expand-lg
 {
-    z-index: 99999999999;
+    z-index: 9999999;
     background-color: transparent;
     transition: all 2s;
 }
