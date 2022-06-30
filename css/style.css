@@ -57,6 +57,14 @@ nav img
 {
     background-color: rgba(0, 0, 0,0.2);
 }
+#slideUp
+{
+    position: fixed; 
+    bottom: 45px;
+    right: 25px;
+    z-index: 99999999;
+    display: none ;
+}
 header h1
 {
 
@@ -108,9 +116,9 @@ a.btn
 {
     color: rgba(149, 148, 148, 0.6)!important;
 }
-.rounded-circles:hover
+.rounded-circles
 {
-    border:2px solid  #fff !important;
+    border:2px solid  #8e7754 !important;
 }
 .rounded-circles:hover a
 {
