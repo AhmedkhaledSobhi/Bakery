@@ -5,14 +5,38 @@ body
     font-size: 17px;
     font-family: Alegreya Sans !important;
     font-style: normal;
+    overflow-y: hidden;
+}
+
+#loading
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(155, 153, 151);
+    z-index: 999999999;
+}
+#loading i
+{
+    color: #8e7754 !important;
+}
+/*  */
+.navbar-expand-lg
+{
+    z-index: 99999999999;
+    background-color: transparent;
+    transition: all 2s;
 }
 a.nav-link
 {
-    color:#fff !important;
+    color:#fff ;
     font-size: 18px !important;
     font-family: Alegreya !important;
     font-weight: 500 !important;
     padding: 15px !important;
+    transition: all 1s;
 }
 a.nav-link:hover
 {
@@ -25,6 +49,7 @@ nav img
 .bg-img
 {
     background-image:url(../images/drew-coffman-1872.jpg);
+    background-color:#969696 ;
     background-size: cover;
     background-position: center center;
 }

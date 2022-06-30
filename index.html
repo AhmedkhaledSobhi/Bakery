@@ -11,37 +11,46 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav class="navbar position-fixed start-0 end-0 t top-0  navbar-expand-lg bg-transparent"> 
-    <div class="container">
-        <img src="images/bakery-light-1.png" alt="bakery-light" class="">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Our Offer</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-       
+
+  <section id="loading" class="d-flex justify-content-center align-items-center">
+    <i class="fas fa-spinner fa-spin fa-7x"></i>
+  </section>
+
+<!-- navbar -->
+  <section>
+    <nav  id="scrollNave" class="navbar position-fixed start-0 end-0 t top-0  navbar-expand-lg "> 
+      <div class="container">
+          <img id="scrollImg" src="images/bakery-light-1.png" alt="bakery-light" class="">
+        <button class="navbar-toggler border-danger text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon btn-danger "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Offer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+         
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </section>
+ 
 
   <div class=" d-flex flex-column position-absolute end-0  top-50 bg-white rounded-start position-fixed ">
     <i class="fa-solid fa-gears ms-2 my-2 fa-9"></i>
@@ -70,7 +79,7 @@
 
     </header>
 
-    <section >
+    <section id="about">
       <div class=" container  mt-5 py-5 ">
         <div class="row">
           <div class="col-lg-5 mx-lg-4">
@@ -267,5 +276,7 @@
       </div>
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
