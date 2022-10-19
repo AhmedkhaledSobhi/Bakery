@@ -1,0 +1,277 @@
+
+body
+{
+    font-weight: 400;
+    font-size: 17px;
+    font-family: Alegreya Sans !important;
+    font-style: normal;
+    overflow-y: hidden;
+}
+
+#loading
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(155, 153, 151);
+    z-index: 99999999999999999999999;
+}
+#loading i
+{
+    color: #8e7754 !important;
+}
+/*  */
+.navbar-expand-lg
+{
+    z-index: 9999999;
+    background-color: transparent;
+    transition: all 2s;
+}
+a.nav-link
+{
+    color:#fff !important ;
+    font-size: 18px !important;
+    font-family: Alegreya !important;
+    font-weight: 500 !important;
+    padding: 15px !important;
+    transition: all 1s;
+}
+a.nav-link:hover
+{
+    color: rgba(255, 255, 255, 0.644) !important;
+    /* color: #8e7754 !important; */
+}
+nav img
+{
+    width: 150px !important;
+}
+.bg-img
+{
+    background-image:url(../images/drew-coffman-1872.jpg);
+    background-color:#969696 ;
+    background-size: cover;
+    background-position: center center;
+}
+.bg-layer
+{
+    background-color: rgba(0, 0, 0,0.2);
+}
+#slideUp
+{
+    position: fixed; 
+    bottom: 45px;
+    right: 25px;
+    z-index: 99999999;
+    display: none ;
+}
+#slideUp i
+{
+    color: #8e7754;
+}
+header h1
+{
+
+    font-size: 76px !important;
+    font-weight: 400;
+    font-family: Alegreya;
+    font-style: normal;
+    color: #fff;
+}
+header p
+{
+    font-size: 24px;
+    color: #fff;
+}
+header h6
+{
+    font-size: 34px;
+    color: #fff;
+}
+
+
+header a.btn-brown
+{
+    border:2px solid  transparent;
+    background-color: #8e7754!important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    font-family: Alegreya Sans !important;
+}
+.btn-brown:hover
+{
+    background: #fff !important;
+    color: #222 !important;
+    border-color: #fff !important;
+}
+a.btn
+{
+    border: 2px solid;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 5px!important;
+}
+
+.rounded-circles
+{
+    width: 40px !important;
+    height: 40px !important;
+    border: 2px solid rgba(149, 148, 148, 0.6);
+    bottom: 15px !important;
+    border-radius:  50% !important;
+    right: 15px !important;
+    background-color: transparent !important;
+}
+.rounded-circles a
+{
+    color: rgba(149, 148, 148, 0.6)!important;
+}
+.rounded-circles
+{
+    border:2px solid  #8e7754 !important;
+}
+.rounded-circles:hover a
+{
+    color: #fff !important;
+}
+
+/*  */
+
+div>ul>li>span.rounded-circle
+{
+    width: 50px !important;
+    height: 50px!important;
+    border: 1px solid rgba(0,0,0,.15) !important ;
+    border-radius: 50% !important;
+}
+div>ul>li
+{
+    font-size: 18px !important;
+    font-weight: 600!important;
+    font-family: Alegreya!important;
+    color: #686868;
+}
+div>ul>li>span>i
+{
+    font-size: 25px !important;
+    color:#8e7754 ;
+}
+
+section div p
+{
+    font-size: 17px !important;
+    font-weight: 400 !important;
+    font-family: Alegreya!important;
+    color: #686868;
+}
+section div h1
+{
+    font-size: 32px!important ;
+    font-weight: 400 !important;
+    font-family: Alegreya!important;
+    color: #303030 !important;
+}
+
+footer
+{
+    background-color: #403d38
+}
+.bg-footer h6
+{
+    color: #969696 !important;
+    
+}
+
+footer ul li
+{
+    color: #969696 !important;
+    
+}
+footer ol li
+{
+    color: #969696 !important;
+    
+}
+footer ul li::before
+{
+    color: #969696 !important;
+    content: '\f105  ';
+    font-family: FontAwesome;
+}
+footer ul li i
+{
+    color: #969696 !important;    
+}
+
+.bg-fram
+{
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat ;
+    background-position: center center;
+}
+
+footer div.rounded-circle
+{
+    width: 50px !important;
+    height: 50px!important;
+    border: 1px solid rgba(0,0,0,.15) !important ;
+    border-radius: 50% !important;
+}
+
+.bg-footer
+{
+    background-color: #353330;
+    
+}
+
+footer .fa-facebook
+{
+    color:#484540;
+}
+
+footer .fa-facebook:hover
+{
+    color: #0275d8;
+}
+footer .fa-google-plus
+{
+    color:#484540 !important;
+}
+footer .fa-google-plus:hover
+{
+    color:#dd4b39 !important;
+}
+footer .fa-linkedin
+{
+    color: #484540 !important;
+}
+footer .fa-linkedin:hover
+{
+    color: #007bb5 !important;
+}
+footer .fa-twitter-square
+{
+    color: #484540 !important;
+}
+footer .fa-twitter-square:hover
+{
+    color: #00aced !important;
+}
+
+@media (max-width: 575.98px) {
+    iframe{
+        width: 340px !important;
+    }
+
+    header h1{
+        font-size: 45px !important;
+    }
+
+    header p{
+        font-size: 20px !important;
+    }
+    header h6{
+        font-size: 25px !important;
+    }
+}
